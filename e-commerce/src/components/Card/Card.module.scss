@@ -1,0 +1,61 @@
+.app {
+  &__card {
+    width: 700px;
+    margin: 14px auto;
+    border: 1px solid #dadada;
+    background-color: #fafafa;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    &_image {
+      width: 100px;
+      height: 100px;
+      display: block;
+      background: cyan;
+      border: 1px solid #dadada;
+    }
+
+    &_content {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 550px;
+    }
+  }
+
+  
+}
+
+
+
+
+
+.app-card .app-card__content h2 {
+  width: 100%;
+}
+
+.app-card .app-card__content a {
+  border-radius: 6px;
+  background-color: green;
+  display: inline-block;
+  padding: 12px 8px;
+  text-align: center;
+  width: 180px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.app-card .app-card__content p {
+  font-size: 18px;
+}
+
+.app-card .app-card__content p span {
+  font-size: 14px;
+  transform: translate(6px, -2px);
+  display: inline-block;
+  text-decoration: line-through;
+}
