@@ -10,12 +10,11 @@ function App() {
     <div className={style.App}>
       <Router>
         <Routes>
-          <Route exact path="/">
-            <Card data={allData} />
-          </Route>
-          <Route exact path="/product/:id">
-            <Detail />
-          </Route>
+          <Route exact path="/" element={<Card/>} />
+            {/* <Card  /> */}
+          
+          <Route exact path="/product/:id" element={<Detail />} />
+            {/*  */}
         </Routes>
       </Router>
     </div>
